@@ -1,9 +1,8 @@
 ##Домашнее задание к занятию 5. «Практическое применение Docker»
 
 #### Задача 1
-#### Сделайте в своем github пространстве fork репозитория https://github.com/netology-code/shvirtd-example-python/blob/main/README.md.
-
-#### Создайте файл с именем Dockerfile.python для сборки данного проекта. Используйте базовый образ python:3.9-slim. Протестируйте корректность сборки. Не забудьте dockerignore.
+        Сделайте в своем github пространстве fork репозитория https://github.com/netology-code/shvirtd-example-python/blob/main/README.md.
+        Создайте файл с именем Dockerfile.python для сборки данного проекта. Используйте базовый образ python:3.9-slim. Протестируйте корректность сборки. Не забудьте dockerignore.
 #### Задача* 2 пропущена 
 #### Задача 3
     1 - Создайте файл compose.yaml. Опишите в нем следующие сервисы:
@@ -24,25 +23,27 @@
     3 - Подключитесь к БД mysql с помощью команды docker exec <имя_контейнера> mysql -uroot -p<пароль root-пользователя>.
     Введите последовательно команды (не забываем в конце символ ; ): show databases; use <имя вашей базы данных(по-умолчанию example)>; show tables; SELECT * from requests LIMIT 10;.
 
-    4 - Остановите проект. В качестве ответа приложите скриншот sql-запроса.
-        ![5-3-4](05-virt-04-docker-in-practice\IMG\5-3-4.jpg)
+    4 - Остановите проект. В качестве ответа приложите скриншот sql-запроса.    
+         ![5-3-4](05-virt-04-docker-in-practice/IMG/5-3-4.jpg)
 
 #### Задача 4
     
     1 - Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
     2 - Подключитесь к Вм по ssh и установите docker.
-    3 - Напишите bash-скрипт, который скачает ваш fork-репозиторий в каталог /opt и запустит проект целиком.
-        ![5-4-3](05-virt-04-docker-in-practice\IMG\5-4-3.jpg)    
+    3 - Напишите bash-скрипт, который скачает ваш fork-репозиторий в каталог /opt и запустит проект целиком.    
+        ![5-4-3](05-virt-04-docker-in-practice/IMG/5-4-3.jpg)
+        
     4 - Зайдите на сайт проверки http подключений, например(или аналогичный): https://check-host.net/check-http и запустите проверку вашего сервиса http://<внешний_IP-адрес_вашей_ВМ>:5000.
-        ![5-4-4](05-virt-04-docker-in-practice\IMG\5-4-4.jpg)
+        ![5-4-4](05-virt-04-docker-in-practice/IMG/5-4-4.jpg)
+        
     5 - (Необязательная часть) Дополнительно настройте remote ssh context к вашему серверу. Отобразите список контекстов и результат удаленного выполнения docker ps -a
     6 - В качестве ответа повторите sql-запрос и приложите скриншот с данного сервера, bash-скрипт и ссылку на fork-репозиторий.
 
         sql-запрос
-        ![5-4-6](05-virt-04-docker-in-practice\IMG\5-4-6.jpg)
+        ![5-4-6](05-virt-04-docker-in-practice/IMG/5-4-6.jpg)
 
         bash-скрипт
-        ![5-4-6-bush](05-virt-04-docker-in-practice\IMG\5-4-6-bush.jpg)
+        ![5-4-6-bush](05-virt-04-docker-in-practice/IMG/5-4-6-bush.jpg)
 
         [ссылка на fork-репозиторий](https://github.com/ub1984/shvirtd-example-python)
 
@@ -58,16 +59,16 @@
     Предоставьте скриншоты действий.
 
     используя dive
-    ![5-6-dive](05-virt-04-docker-in-practice\IMG\5-6-dive.jpg)
+    ![5-6-dive](05-virt-04-docker-in-practice/IMG/5-6-dive.jpg)
     docker save
-    ![5-6-dive](05-virt-04-docker-in-practice\IMG\5-6-save.jpg)
+    ![5-6-dive](05-virt-04-docker-in-practice/IMG/5-6-save.jpg)
     
 #### Задача 6.1
     Добейтесь аналогичного результата, используя docker cp.
     Предоставьте скриншоты действий.
 
     docker cp
-    ![5-6.1-cp](05-virt-04-docker-in-practice\IMG\5-6.1-cp.jpg)
+    ![5-6.1-cp](05-virt-04-docker-in-practice/IMG/5-6.1-cp.jpg)
 
 #### Задача* 6.2 пропущена
     Предложите способ извлечь файл из контейнера, используя только команду docker build и любой Dockerfile.
