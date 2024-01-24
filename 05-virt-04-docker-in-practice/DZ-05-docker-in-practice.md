@@ -24,7 +24,7 @@
     Введите последовательно команды (не забываем в конце символ ; ): show databases; use <имя вашей базы данных(по-умолчанию example)>; show tables; SELECT * from requests LIMIT 10;.
 
     4 - Остановите проект. В качестве ответа приложите скриншот sql-запроса.    
-         ![5-3-4](05-virt-04-docker-in-practice/assets/5-3-4.jpg)
+![5-3-4](05-virt-04-docker-in-practice/assets/5-3-4.jpg)
 
 #### Задача 4
     
