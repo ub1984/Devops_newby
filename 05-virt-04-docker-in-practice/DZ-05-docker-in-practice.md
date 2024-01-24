@@ -60,6 +60,7 @@
 
     используя dive
 ![5-6-dive](IMG/5-6-dive.jpg)
+
     docker save
 ![5-6-dive](IMG/5-6-save.jpg)
     
