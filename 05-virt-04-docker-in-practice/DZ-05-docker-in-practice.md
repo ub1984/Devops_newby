@@ -82,5 +82,5 @@
 
 Долго боролся с этой ошибкой
 
- ![tf-error](05-virt-04-docker-in-practice/IMG/tf-error.jpg)
+![tf-error](05-virt-04-docker-in-practice/IMG/tf-error.jpg)
  решения  не нашел
