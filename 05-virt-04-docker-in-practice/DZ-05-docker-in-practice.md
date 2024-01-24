@@ -45,7 +45,7 @@
         bash-скрипт
 ![5-4-6-bush](IMG/5-4-6-bush.jpg)
 
-        [ссылка на fork-репозиторий](https://github.com/ub1984/shvirtd-example-python)
+[ссылка на fork-репозиторий](https://github.com/ub1984/shvirtd-example-python)
 
 #### Задача* 5 пропущена 
 
