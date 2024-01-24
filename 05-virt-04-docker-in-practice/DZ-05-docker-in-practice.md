@@ -1,9 +1,8 @@
 ##Домашнее задание к занятию 5. «Практическое применение Docker»
 
 #### Задача 1
-#### Сделайте в своем github пространстве fork репозитория https://github.com/netology-code/shvirtd-example-python/blob/main/README.md.
-
-#### Создайте файл с именем Dockerfile.python для сборки данного проекта. Используйте базовый образ python:3.9-slim. Протестируйте корректность сборки. Не забудьте dockerignore.
+        Сделайте в своем github пространстве fork репозитория https://github.com/netology-code/shvirtd-example-python/blob/main/README.md.
+        Создайте файл с именем Dockerfile.python для сборки данного проекта. Используйте базовый образ python:3.9-slim. Протестируйте корректность сборки. Не забудьте dockerignore.
 #### Задача* 2 пропущена 
 #### Задача 3
     1 - Создайте файл compose.yaml. Опишите в нем следующие сервисы:
